@@ -1,0 +1,58 @@
+﻿<!-- Header -->
+<div class="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 py-4 shadow-lg">
+    <div class="flex items-center justify-between">
+        <a href="" class="flex items-center gap-2 text-white no-underline">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+            <span class="text-xl font-bold tracking-wide">FlashTech</span>
+        </a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<!-- Navigation -->
+<div class="nav-scrollable bg-slate-800" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex flex-col p-3 gap-1">
+        <!-- Home -->
+        <div class="nav-item">
+            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="" Match="NavLinkMatch.All">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
+                </svg>
+                <span class="font-medium">Trang chủ</span>
+            </NavLink>
+        </div>
+
+       <!--- Users -->
+        <div class="nav-item">
+            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="users">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M13 7H7v6h6V7z"/>
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-11a1 1 0 112 0v2a1 1 0 11-2 0V7zm0 4a1 1 0 112 0v2a1 1 0 11-2 0v-2z" clip-rule="evenodd"/>
+                </svg>
+                <span class="font-medium"</span>Users
+            </NavLink>
+        </div>
+
+        <!-- Divider -->
+        <div class="my-3 border-t border-slate-700"></div>
+
+        <!-- User Section -->
+        <div class="px-4 py-3 bg-slate-700/50 rounded-lg">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full flex items-center justify-center">
+                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                    </svg>
+                </div>
+                <div>
+                    <p class="text-sm font-medium text-white m-0">Guest User</p>
+                    <p class="text-xs text-slate-400 m-0">Đăng nhập</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+

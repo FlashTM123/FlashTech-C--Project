@@ -1,0 +1,91 @@
+.page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.sidebar {
+    background-color: #1e293b; /* slate-800 */
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+@media (min-width: 641px) {
+    .page {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        width: 280px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+        flex-shrink: 0;
+    }
+
+    main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .content {
+        flex: 1;
+        padding: 2rem;
+    }
+}
+
+/* Error UI */
+#blazor-error-ui {
+    color-scheme: light only;
+    background: linear-gradient(135deg, #fef2f2, #fee2e2);
+    border-top: 3px solid #ef4444;
+    bottom: 0;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    display: none;
+    left: 0;
+    padding: 1rem 1.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#blazor-error-ui .dismiss {
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+}
+
+#blazor-error-ui .dismiss:hover {
+    background-color: rgba(239, 68, 68, 0.1);
+}
+
+#blazor-error-ui .reload {
+    display: inline-block;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ef4444;
+    color: white;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+#blazor-error-ui .reload:hover {
+    background-color: #dc2626;
+}
