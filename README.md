@@ -1,6 +1,6 @@
 # FlashTech ⚡
 
-Ứng dụng quản lý người dùng xây dựng bằng **Blazor Web App** với giao diện hiện đại sử dụng **Tailwind CSS**.
+Hệ thống quản lý bán laptop xây dựng bằng **Blazor Web App** với giao diện hiện đại sử dụng **Tailwind CSS**.
 
 ## 🚀 Công nghệ sử dụng
 
