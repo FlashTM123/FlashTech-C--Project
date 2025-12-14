@@ -90,3 +90,4 @@ C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compre
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\vr0hvei4g3-{0}-pbfunqxfly-pbfunqxfly.gz
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\MySqlConnector.dll
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.sourcelink.json

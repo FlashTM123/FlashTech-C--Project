@@ -89,7 +89,7 @@ Truy cập: `http://localhost:5254`
 - ✅ Tìm kiếm người dùng
 - ✅ Lọc theo vai trò (Admin, Moderator, Employee)
 - ✅ Badge màu theo vai trò
-- 🔲 Thêm người dùng mới
+- ✅ Thêm người dùng mới (`/users/create`)
 - 🔲 Sửa thông tin người dùng
 - 🔲 Xóa người dùng
 

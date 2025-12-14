@@ -9,8 +9,8 @@ namespace FlashTech.Service
     {
         Task<List<Users>> GetAllUsersAsync();
         Task<Users> GetUserByIdAsync(int id);
-        Task<Users> CreateUserAsync(Users user);
-        Task<Users> UpdateUserAsync(Users user);
+        Task CreateUserAsync(Users user);
+        Task UpdateUserAsync(Users user);
 
         Task DeleteUserAsync(int id);
     }

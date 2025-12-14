@@ -15,14 +15,11 @@ namespace FlashTech.Service
         {
             _context = context;
         }
-        public async Task<List<Users>> GetAllUsersAsync()
+
+        public async Task CreateUserAsync(Users user)
         {
-            return await _context.users.ToListAsync();
-        }
-     
-        public Task<Users> CreateUserAsync(Users user)
-        {
-            throw new NotImplementedException();
+            _context.users.Add(user);
+            await  _context.SaveChangesAsync();
         }
 
         public Task DeleteUserAsync(int id)
@@ -30,13 +27,17 @@ namespace FlashTech.Service
             throw new NotImplementedException();
         }
 
+        public async Task<List<Users>> GetAllUsersAsync()
+        {
+             return await _context.users.ToListAsync();
+        }
 
         public Task<Users> GetUserByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Users> UpdateUserAsync(Users user)
+        public Task UpdateUserAsync(Users user)
         {
             throw new NotImplementedException();
         }
