@@ -1,0 +1,86 @@
+@page "/customers"
+@rendermode InteractiveServer
+@using FlashTech.Models
+@using FlashTech.Service
+@inject ICustomerService CustomerService
+
+<div class="container-fluid px-0">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary mb-0">Customer List</h2>
+    </div>
+    @if (customers == null)
+    {
+        <div class="d-flex justify-content-center align-items-center" style="height:200px">
+            <div class="spinner-border text-primary me-2" role="status"></div>
+            <span class="fs-5">Loading customers...</span>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive rounded shadow-sm">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-primary text-center align-middle">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Date of Birth</th>
+                        <th>Gender</th>
+                        <th>Phone</th>
+                        <th>Address</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in customers)
+                    {
+                        <tr>
+                            <td class="text-center">@customer.Id</td>
+                            <td>@customer.name</td>
+                            <td>@customer.email</td>
+                            <td><span class="text-muted">@customer.password</span></td>
+                            <td class="text-nowrap">@customer.date_of_birth.ToShortDateString()</td>
+                            <td>@customer.Gender</td>
+                            <td>@customer.phone</td>
+                            <td>@customer.address</td>
+                            <td class="text-center">
+                                <img src="@customer.image" alt="Customer Image" class="rounded-circle border border-2" style="width:48px;height:48px;object-fit:cover;" />
+                            </td>
+                            
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+<style>
+    .table thead th {
+        vertical-align: middle;
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+    }
+    .table td, .table th {
+        vertical-align: middle;
+    }
+    .table img {
+        transition: transform 0.2s;
+    }
+    .table img:hover {
+        transform: scale(1.15);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+</style>
+@code {
+    private List<FlashTech.Models.Customers> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadCustomers();
+    }
+    private async Task LoadCustomers()
+    {
+        customers = await CustomerService.GetAllCustomersAsync();
+    }
+}

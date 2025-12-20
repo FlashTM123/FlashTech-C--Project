@@ -1,4 +1,4 @@
-@page "/users/create"
+@page "/users/edit/{id:int}"
 @rendermode InteractiveServer
 @using FlashTech.Service
 @using FlashTech.Models
@@ -10,7 +10,7 @@
         <div class="col-md-6">
             <div class="card shadow">
                 <div class="card-header bg-primary text-white">
-                    <h4 class="mb-0"><i class="bi bi-person-plus"></i> Thêm Người Dùng</h4>
+                    <h4 class="mb-0"><i class="bi bi-person-plus"></i> Chỉnh sửa Người Dùng</h4>
                 </div>
                 <div class="card-body">
                     <EditForm Model="@user" OnValidSubmit="SaveUser">
@@ -68,11 +68,17 @@
 
 @code {
     public FlashTech.Models.Users user = new FlashTech.Models.Users();
-    [Inject] private NavigationManager Navigation { get; set; }
-
+    [Inject] NavigationManager Navigation { get; set; }
+    [Parameter] public int id { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        user = await UserService.GetUserByIdAsync(id);
+        Console.WriteLine($"Role: {user.role}");   
+    }
     public async Task SaveUser()
     {
-        await UserService.CreateUserAsync(user);
+        await UserService.UpdateUserAsync(user);
         Navigation.NavigateTo("/users");
     }
+
 }

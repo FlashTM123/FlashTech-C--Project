@@ -8,7 +8,7 @@ namespace FlashTech.Service
     public interface IUserService
     {
         Task<List<Users>> GetAllUsersAsync();
-        Task<Users> GetUserByIdAsync(int id);
+        Task<Users?> GetUserByIdAsync(int id);
         Task CreateUserAsync(Users user);
         Task UpdateUserAsync(Users user);
 

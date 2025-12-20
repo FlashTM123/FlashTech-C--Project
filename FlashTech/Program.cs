@@ -1,6 +1,7 @@
 using FlashTech.Components;
 using FlashTech.Data;
 using FlashTech.Service;
+using FlashTech.Service.Brands;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -10,6 +11,8 @@ builder.Services.AddDbContext<AppDBContent>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
 
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
+builder.Services.AddScoped<IBrandService, BrandService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

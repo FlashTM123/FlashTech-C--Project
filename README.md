@@ -23,14 +23,22 @@ FlashTech/
 │       ├── Home.razor            # Trang chủ
 │       ├── Counter.razor         # Bộ đếm
 │       ├── Weather.razor         # Thời tiết
+│       ├── Brands/
+│       │   ├── Brands.razor      # Quản lý thương hiệu
+│       │   ├── Create.razor      # Thêm thương hiệu
+│       │   └── Edit.razor        # Sửa thương hiệu
 │       └── Users/
 │           └── Users.razor       # Quản lý người dùng
 ├── Data/
 │   └── AppDBContent.cs           # Database Context
 ├── Models/
+│   ├── Brands.cs                 # Model thương hiệu
 │   └── Users.cs                  # Model người dùng
 ├── Service/
-│   ├── IUserService.cs           # Interface service
+│   ├── Brands/
+│   │   ├── BrandService.cs       # Service thương hiệu
+│   │   └── IBrandService.cs      # Interface service thương hiệu
+│   ├── IUserService.cs           # Interface service user
 │   └── UserService.cs            # User service
 ├── wwwroot/
 │   └── app.css                   # CSS tùy chỉnh
@@ -58,16 +66,21 @@ Tạo database MySQL và cập nhật connection string trong `appsettings.json`
 }
 ```
 
-### 3. Tạo bảng Users trong MySQL
+### 3. Tạo bảng Users và Brands trong MySQL
 
 ```sql
 CREATE TABLE users (
-    Id INT PRIMARY KEY AUTO_INCREMENT,
-    userName VARCHAR(100),
-    password VARCHAR(255),
-    email VARCHAR(100),
-    address VARCHAR(255),
-    role VARCHAR(50)
+  Id INT PRIMARY KEY AUTO_INCREMENT,
+  userName VARCHAR(100),
+  password VARCHAR(255),
+  email VARCHAR(100),
+  address VARCHAR(255),
+  role VARCHAR(50)
+);
+
+CREATE TABLE brands (
+  Id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100) NOT NULL
 );
 ```
 
@@ -83,6 +96,14 @@ dotnet run
 Truy cập: `http://localhost:5254`
 
 ## 📸 Tính năng
+
+
+### Quản lý thương hiệu (`/brands`)
+- ✅ Hiển thị danh sách thương hiệu
+- ✅ Thêm thương hiệu mới (`/brands/create`)
+- ✅ Sửa thương hiệu (`/brands/edit/{id}`)
+- ✅ Xóa thương hiệu (cập nhật UI ngay sau khi xóa)
+- ✅ Loading state, empty state
 
 ### Quản lý người dùng (`/users`)
 - ✅ Hiển thị danh sách người dùng
