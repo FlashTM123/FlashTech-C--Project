@@ -1,0 +1,167 @@
+﻿@page "/products/edit/{id:int}"
+@rendermode InteractiveServer
+@using FlashTech.Models
+@using FlashTech.Service.Products
+@using FlashTech.Service 
+
+@inject IProductService ProductService
+@inject IBrandService BrandService
+
+@inject IJSRuntime JSRuntime
+<h3>Edit Product</h3>
+<div class="space-y-6">
+    <div class="flex items-center justify-between">
+        <div>
+            <h3 class="text-2xl font-bold text-gray-800">Chỉnh sửa sản phẩm</h3>
+            <p class="text-gray-500 text-sm mt-1">Điền thông tin để chỉnh sửa sản phẩm</p>
+        </div>
+    </div>
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+        <EditForm Model="@product" OnValidSubmit="SaveProduct">
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-red-600 mb-4 p-4 bg-red-50 rounded-lg" />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="md:col-span-2">
+                <label for="name" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Tên sản phẩm <span class="text-red-500">*</span>
+                </label>
+                <InputText id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.name" placeholder="Nhập tên sản phẩm" />
+                <ValidationMessage For="@(() => product.name)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="brandId" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Thương hiệu <span class="text-red-500">*</span>
+                </label>
+                <InputSelect id="brandId" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.brandId">
+                    <option value="0">-- Chọn thương hiệu --</option>
+                   @if (brands != null)
+                   {
+                       @foreach (var brand in brands)
+                       {
+                           <option value="@brand.Id">@brand.name</option>
+                       }
+                   }
+                </InputSelect>
+                <ValidationMessage For="@(() => product.brandId)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="color" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Màu sắc <span class="text-red-500">*</span>
+                </label>
+                <InputText id="color" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.color" placeholder="Nhập màu sắc" />
+                <ValidationMessage For="@(() => product.color)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="CPU" class="block text-sm font-semibold text-gray-700 mb-2">
+                    CPU <span class="text-red-500">*</span>
+                </label>
+                <InputText id="CPU" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.CPU" placeholder="Nhập thông tin CPU" />
+                <ValidationMessage For="@(() => product.CPU)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="RAM" class="block text-sm font-semibold text-gray-700 mb-2">
+                    RAM <span class="text-red-500">*</span>
+                </label>
+                <InputText id="RAM" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.RAM" placeholder="Nhập thông tin RAM" />
+                <ValidationMessage For="@(() => product.RAM)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="storage" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Bộ nhớ <span class="text-red-500">*</span>
+                </label>
+                <InputText id="storage" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.storage" placeholder="Nhập thông tin bộ nhớ" />
+                <ValidationMessage For="@(() => product.storage)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="GPU" class="block text-sm font-semibold text-gray-700 mb-2">
+                    GPU <span class="text-red-500">*</span>
+                </label>
+                <InputText id="GPU" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.GPU" placeholder="Nhập thông tin GPU" />
+                <ValidationMessage For="@(() => product.GPU)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="price" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Giá bán <span class="text-red-500">*</span>
+                </label>
+                <InputNumber id="price" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.price" placeholder="Nhập giá bán" />
+                <ValidationMessage For="@(() => product.price)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="discount" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Giảm giá <span class="text-red-500">*</span>
+                </label>
+                <InputNumber id="discount" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.discount" placeholder="Nhập giảm giá" />
+                <ValidationMessage For="@(() => product.discount)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="promotionalPrice" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Giá khuyến mãi <span class="text-red-500">*</span>
+                </label>
+                <InputNumber id="promotionalPrice" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.promotionalPrice" placeholder="Nhập giá khuyến mãi" />
+                <ValidationMessage For="@(() => product.promotionalPrice)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="quantity" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Số lượng <span class="text-red-500">*</span>
+                </label>
+                <InputNumber id="quantity" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.quantity" placeholder="Nhập số lượng" />
+                <ValidationMessage For="@(() => product.quantity)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="status" class="block text-sm font-semibold text-gray-700 mb-2">
+                    Trạng thái <span class="text-red-500">*</span>
+                </label>
+                <InputSelect id="status" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.status">
+                    <option value="">-- Chọn trạng thái --</option>
+                    <option value="Còn hàng">Còn hàng</option>
+                    <option value="Hết hàng">Hết hàng</option>
+                    <option value="Sắp về">Sắp về</option>
+                </InputSelect>
+                <ValidationMessage For="@(() => product.status)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="md:col-span-2">
+                <label for="image" class="block text-sm font-semibold text-gray-700 mb-2">
+                    URL Hình ảnh <span class="text-red-500">*</span>
+                </label>
+                <InputText id="image" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition-all" @bind-Value="product.image" placeholder="Nhập URL hình ảnh" />
+                <ValidationMessage For="@(() => product.image)" class="text-red-600 text-sm mt-1" />
+            </div>
+            <div class="flex items-center justify-end gap-4 mt-8 pt-6 border-t border-gray-200">
+                <a href="/products" class="px-6 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-all">
+                    Hủy
+                </a>
+                <button type="submit" class="px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl">
+                    <span class="flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Lưu sản phẩm
+                    </span>
+                </button>
+            </div>
+            </div>
+        </EditForm>
+    </div>
+</div>
+
+
+@code {
+    public FlashTech.Models.Products product = new FlashTech.Models.Products();
+    public List<FlashTech.Models.Brands> brands = new List<FlashTech.Models.Brands>();
+    [Parameter] public int id { get; set; }
+    [Inject] private NavigationManager Navigation { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        product = await ProductService.GetProductByIdAsync(id);
+        brands = await BrandService.GetAllBrandsAsync();
+    }
+    public async Task SaveProduct()
+    {
+        
+        await ProductService.UpdateProductAsync(product);
+        await JSRuntime.InvokeVoidAsync("alert", "Cập nhật sản phẩm thành công!");
+        Navigation.NavigateTo("/products");
+    }
+}
+               

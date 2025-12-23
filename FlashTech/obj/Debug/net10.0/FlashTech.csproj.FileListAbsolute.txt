@@ -10,6 +10,8 @@ C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashT
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\MySqlConnector.dll
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\EmbeddedAttribute.cs
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\ValidatableTypeAttribute.cs
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.csproj.AssemblyReference.cache
@@ -19,6 +21,7 @@ C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashT
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.AssemblyInfo.cs
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.csproj.CoreCompileInputs.cache
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.sourcelink.json
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -73,8 +76,10 @@ C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compre
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\cdwnzkmq4h-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ocgysal190-{0}-0j3bgjxly4-0j3bgjxly4.gz
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\nvnk9hvrjc-{0}-13ja33weya-13ja33weya.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\3rawy5bchb-{0}-j8lzlu28q6-j8lzlu28q6.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ftjhev8xci-{0}-u1n4jc5v46-u1n4jc5v46.gz
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\3rawy5bchb-{0}-wmp8iwak4q-wmp8iwak4q.gz
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ftjhev8xci-{0}-2lgipwaf5j-2lgipwaf5j.gz
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\0ojws8apwa-{0}-pbfunqxfly-pbfunqxfly.gz
+C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\vr0hvei4g3-{0}-pbfunqxfly-pbfunqxfly.gz
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.development.json
@@ -86,8 +91,3 @@ C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\refint
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.pdb
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.genruntimeconfig.cache
 C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\ref\FlashTech.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\0ojws8apwa-{0}-pbfunqxfly-pbfunqxfly.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\vr0hvei4g3-{0}-pbfunqxfly-pbfunqxfly.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\MySqlConnector.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.sourcelink.json

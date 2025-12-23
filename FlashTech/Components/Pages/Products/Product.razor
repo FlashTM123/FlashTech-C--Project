@@ -1,0 +1,208 @@
+@page "/products"
+@rendermode InteractiveServer
+@using FlashTech.Models
+@using FlashTech.Service.Products
+@inject IProductService ProductService
+@inject IJSRuntime JSRuntime
+<div class="space-y-6">
+    <!-- Header -->
+    <div class="flex items-center justify-between">
+        <div>
+            <h3 class="text-2xl font-bold text-gray-800">Quản lý sản phẩm</h3>
+            <p class="text-gray-500 text-sm mt-1">Danh sách tất cả sản phẩm trong hệ thống</p>
+        </div>
+       <a href="/products/create" class="flex items-center gap-2 bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-4 py-2 rounded-lg hover:from-indigo-700 hover:to-purple-700 transition-all shadow-lg hover:shadow-xl">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+            </svg>
+            Thêm Sản Phẩm
+         </a>
+    </div>
+
+    <!-- Search & Filter -->
+   
+
+    <!-- Table -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+        <div class="overflow-x-auto">
+            <table class="w-full">
+                <thead class="bg-gray-50 border-b border-gray-200">
+                    <tr>
+                        <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            ID
+                        </th>
+                        <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Tên sản phẩm
+                        </th>
+                        <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Tên thương hiệu
+                        </th>
+                        <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Màu sắc
+                        </th>
+                        <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            CPU
+                        </th>
+                        <th class="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                        RAM
+                        </th>
+                         <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            GPU
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Bộ nhớ
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Giá bán 
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                           Giảm giá
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                           Giá khuyên mãi
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                           Số lượng
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                           Trạng thái
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Hình Ảnh
+                        </th>
+                        <th class="px-6 py-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider text-center">
+                            Hành động
+                        </th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                    @if (products == null)
+                    {
+                        <tr>
+                            <td colspan="7" class="px-6 py-12 text-center">
+                                <div class="flex flex-col items-center">
+                                    <svg class="animate-spin h-8 w-8 text-indigo-600 mb-3" fill="none" viewBox="0 0 24 24">
+                                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                                    </svg>
+                                    <span class="text-gray-500">Đang tải dữ liệu...</span>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                    else if (products.Count == 0)
+                    {
+                        <tr>
+                            <td colspan="7" class="px-6 py-12 text-center">
+                                <div class="flex flex-col items-center">
+                                    <svg class="w-12 h-12 text-gray-300 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                    </svg>
+                                    <span class="text-gray-500">Chưa có sản phẩm nào</span>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        @foreach (var product in products)
+                        {
+                            <tr class="hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4">
+                                    <span class="inline-flex items-center justify-center w-8 h-8 bg-gray-100 text-gray-600 rounded-lg text-sm font-medium">
+                                        @product.id
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center gap-3">
+                                        <span class="font-medium text-gray-900">@product.name</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="text-gray-600">@product.brands?.name</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="text-gray-600 text-sm">@product.color</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="text-gray-600 text-sm">@product.CPU</span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <span class="text-gray-600 text-sm">@product.RAM</span>
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.GPU</span>
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.storage</span>
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.price VNĐ</span> 
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.discount %</span>
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.promotionalPrice VNĐ</span>
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.quantity</span>
+                                </td>
+                             <td class="px-6 py-4 text-right">
+                                    <span class="text-gray-600 text-sm">@product.status</span>
+                                </td>
+                                <td class="px-6 py-4 text-right">
+                                    <img src="@product.image?" alt="@product.name" class="w-10 h-10 object-cover rounded-lg"/>
+                                </td>
+
+
+                                <td class="px-6 py-4">
+                                    <div class="flex items-center justify-end gap-1">
+                                        <a href="/products/edit/@product.id" class="p-2 text-gray-500 hover:text-amber-600 hover:bg-amber-50 rounded-lg transition-colors" title="Sửa">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                                            </svg>
+                                            </a>
+                                        <button class="p-2 text-gray-500 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors" title="Xóa" @onclick="() => DeleteProduct(product.id)">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+
+      
+    </div>
+</div>
+
+
+
+
+
+
+
+@code {
+    List<Products> products = new List<Products>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProductsAsync();
+    }
+    private async Task LoadProductsAsync()
+    {
+        products = await ProductService.GetAllProductsAsync();
+    }
+    private async Task DeleteProduct(int id)
+    {
+       await ProductService.DeleteProductAsync(id);
+        await JSRuntime.InvokeVoidAsync("alert", "Xóa sản phẩm thành công!");
+        await LoadProductsAsync();
+    }
+    
+}

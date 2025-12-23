@@ -35,7 +35,7 @@ namespace FlashTech.Data
                entity.HasKey(p => p.id);
                entity.Property(p => p.id).HasColumnName("id");
                entity.Property(p => p.name).HasColumnName("name");
-               entity.Property(p => p.brandId).HasColumnName("brandId");
+               entity.Property(p => p.brandId).HasColumnName("brand_id");
                entity.Property(p => p.color).HasColumnName("color");
                entity.Property(p => p.CPU).HasColumnName("CPU");
                entity.Property(p => p.RAM).HasColumnName("RAM");
@@ -43,10 +43,13 @@ namespace FlashTech.Data
                entity.Property(p => p.GPU).HasColumnName("GPU");
                entity.Property(p => p.price).HasColumnName("price");
                entity.Property(p => p.discount).HasColumnName("discount");
-               entity.Property(p => p.promotionalPrice).HasColumnName("promotionalPrice");
+               entity.Property(p => p.promotionalPrice).HasColumnName("promotional_price");
                entity.Property(p => p.quantity).HasColumnName("quantity");
                entity.Property(p => p.status).HasColumnName("status");
                entity.Property(p => p.image).HasColumnName("image");
+               entity.HasOne(p => p.brands)
+                     .WithMany()
+                     .HasForeignKey(p => p.brandId);
             });
         }
     }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ls1iVQHwIbw=",
+  "dgSpecHash": "Do5cvEWJYEg=",
   "success": true,
   "projectFilePath": "C:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\FlashTech.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\minhz\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.0\\microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
+    "C:\\Users\\minhz\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.1\\microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512",
     "C:\\Users\\minhz\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",
     "C:\\Users\\minhz\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.2\\microsoft.entityframeworkcore.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\minhz\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.2\\microsoft.entityframeworkcore.analyzers.8.0.2.nupkg.sha512",

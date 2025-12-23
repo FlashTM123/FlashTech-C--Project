@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashTech")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e326317c77417173edde1d0962b0b7802fec34e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a0b8fc448cc12472a62250122f6c9aabc351a3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashTech")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashTech")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

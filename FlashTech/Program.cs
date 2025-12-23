@@ -5,6 +5,8 @@ using FlashTech.Service.Brands;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
+using FlashTech.Service.Products;
+
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDBContent>(options => 
@@ -13,6 +15,7 @@ builder.Services.AddDbContext<AppDBContent>(options =>
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICustomerService, CustomerService>();
 builder.Services.AddScoped<IBrandService, BrandService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

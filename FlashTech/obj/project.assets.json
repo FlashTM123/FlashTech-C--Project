@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net10.0": {
-      "Microsoft.AspNetCore.App.Internal.Assets/10.0.0": {
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
@@ -103,10 +103,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.App.Internal.Assets/10.0.0": {
-      "sha512": "0gZrESKwnlmbE8Br8XIy3kk7Pj0++9T2Ly+A8BFYYgo5EgfqWEln26cho+l92KOaHUzclhvz314RiwE910s24g==",
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.1": {
+      "sha512": "rafnWkNfJPA0nCZ5u9bFLiIhCv+aGDWBPJMejuROFMHEpsNhTdv8Cvhv+2jIH+b5485FhndbiwOQJUBMeBa6BQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.internal.assets/10.0.0",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -122,7 +122,7 @@
         "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
-        "microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     },
@@ -230,7 +230,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.0",
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.1",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2"
     ]
@@ -242,11 +242,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\FlashTech.csproj",
+      "projectUniqueName": "c:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\FlashTech.csproj",
       "projectName": "FlashTech",
-      "projectPath": "C:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\FlashTech.csproj",
+      "projectPath": "c:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\FlashTech.csproj",
       "packagesPath": "C:\\Users\\minhz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\obj\\",
+      "outputPath": "c:\\Users\\minhz\\Documents\\FlashTech C# Project\\FlashTech\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -288,7 +288,7 @@
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.0, )",
+            "version": "[10.0.1, )",
             "autoReferenced": true
           },
           "Microsoft.EntityFrameworkCore": {
@@ -319,7 +319,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

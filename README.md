@@ -27,17 +27,25 @@ FlashTech/
 │       │   ├── Brands.razor      # Quản lý thương hiệu
 │       │   ├── Create.razor      # Thêm thương hiệu
 │       │   └── Edit.razor        # Sửa thương hiệu
+│       ├── Products/
+│       │   ├── Product.razor     # Quản lý sản phẩm
+│       │   ├── Create.razor      # Thêm sản phẩm
+│       │   └── Edit.razor        # Sửa sản phẩm
 │       └── Users/
 │           └── Users.razor       # Quản lý người dùng
 ├── Data/
 │   └── AppDBContent.cs           # Database Context
 ├── Models/
 │   ├── Brands.cs                 # Model thương hiệu
+│   ├── Products.cs               # Model sản phẩm
 │   └── Users.cs                  # Model người dùng
 ├── Service/
 │   ├── Brands/
 │   │   ├── BrandService.cs       # Service thương hiệu
 │   │   └── IBrandService.cs      # Interface service thương hiệu
+│   ├── Products/
+│   │   ├── ProductService.cs     # Service sản phẩm
+│   │   └── IProductService.cs    # Interface service sản phẩm
 │   ├── IUserService.cs           # Interface service user
 │   └── UserService.cs            # User service
 ├── wwwroot/
@@ -66,7 +74,7 @@ Tạo database MySQL và cập nhật connection string trong `appsettings.json`
 }
 ```
 
-### 3. Tạo bảng Users và Brands trong MySQL
+### 3. Tạo bảng Users, Brands và Products trong MySQL
 
 ```sql
 CREATE TABLE users (
@@ -81,6 +89,24 @@ CREATE TABLE users (
 CREATE TABLE brands (
   Id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE products (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  brandId INT NOT NULL,
+  color VARCHAR(100),
+  CPU VARCHAR(100),
+  RAM VARCHAR(100),
+  storage VARCHAR(100),
+  GPU VARCHAR(100),
+  price DECIMAL(18,2) NOT NULL,
+  discount DECIMAL(5,2),
+  promotionalPrice DECIMAL(18,2),
+  quantity INT NOT NULL,
+  status VARCHAR(50),
+  image VARCHAR(500),
+  FOREIGN KEY (brandId) REFERENCES brands(Id)
 );
 ```
 
@@ -103,6 +129,23 @@ Truy cập: `http://localhost:5254`
 - ✅ Thêm thương hiệu mới (`/brands/create`)
 - ✅ Sửa thương hiệu (`/brands/edit/{id}`)
 - ✅ Xóa thương hiệu (cập nhật UI ngay sau khi xóa)
+- ✅ Loading state, empty state
+
+### Quản lý sản phẩm (`/products`) 🆕
+- ✅ Hiển thị danh sách sản phẩm với đầy đủ thông tin
+- ✅ Thêm sản phẩm mới (`/products/create`)
+  - Chọn thương hiệu từ dropdown
+  - Nhập thông tin: tên, màu sắc, CPU, RAM, GPU, bộ nhớ
+  - Nhập giá bán, giảm giá, giá khuyến mãi
+  - Nhập số lượng, trạng thái, hình ảnh
+- ✅ Sửa sản phẩm (`/products/edit/{id:int}`)
+  - Load dữ liệu sản phẩm theo ID
+  - Hiển thị dropdown thương hiệu
+  - Cập nhật thông tin sản phẩm
+  - Thông báo thành công sau khi lưu
+- ✅ Xóa sản phẩm (với xác nhận)
+- ✅ Hiển thị hình ảnh sản phẩm trong bảng
+- ✅ Liên kết với bảng Brands (Foreign Key)
 - ✅ Loading state, empty state
 
 ### Quản lý người dùng (`/users`)
