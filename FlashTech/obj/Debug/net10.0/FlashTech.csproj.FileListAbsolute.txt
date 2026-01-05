@@ -1,93 +1,186 @@
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\appsettings.Development.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\appsettings.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.staticwebassets.runtime.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.staticwebassets.endpoints.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.exe
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.deps.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.runtimeconfig.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\FlashTech.pdb
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\MySqlConnector.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\bin\Debug\net10.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\EmbeddedAttribute.cs
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\ValidatableTypeAttribute.cs
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.csproj.AssemblyReference.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rpswa.dswa.cache.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.AssemblyInfoInputs.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.AssemblyInfo.cs
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.csproj.CoreCompileInputs.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.sourcelink.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rjimswa.dswa.cache.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\scopedcss\Components\Layout\ReconnectModal.razor.rz.scp.css
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\scopedcss\bundle\FlashTech.styles.css
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\scopedcss\projectbundle\FlashTech.bundle.scp.css
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\4ksb3x9rgf-{0}-khy4lop6wu-khy4lop6wu.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\pijs2xyt0b-{0}-bqjiyaj88i-bqjiyaj88i.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\cp8y74kq5p-{0}-c2jlpeoesf-c2jlpeoesf.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ycuwjpdarz-{0}-erw9l3u2r3-erw9l3u2r3.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\3cx45yzfw4-{0}-aexeepp0ev-aexeepp0ev.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\sckncgjh1p-{0}-d7shbmvgxk-d7shbmvgxk.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\nijrdbp81b-{0}-ausgxo2sd3-ausgxo2sd3.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\r9n99hi7u1-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\56c5me9kgr-{0}-cosvhxvwiu-cosvhxvwiu.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ntyhm64rbl-{0}-ub07r2b239-ub07r2b239.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\09r1dd0y7x-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\mwiq430j3f-{0}-b7pk76d08c-b7pk76d08c.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\f9ri4qsiax-{0}-fsbi9cje9m-fsbi9cje9m.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\nd3cpqs8pm-{0}-rzd6atqjts-rzd6atqjts.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\5374hzegsy-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\4nxbsrlz3m-{0}-dxx9fxp4il-dxx9fxp4il.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ohjqxodgcd-{0}-jd9uben2k1-jd9uben2k1.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\9bc8l3diy3-{0}-khv3u5hwcm-khv3u5hwcm.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\rkrm4pkvcz-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\kynv09p32b-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ofute9ye11-{0}-c2oey78nd0-c2oey78nd0.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\moy0fblnho-{0}-tdbxkamptv-tdbxkamptv.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\4ia8v79aak-{0}-j5mq2jizvt-j5mq2jizvt.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\v3hs1gcjv7-{0}-06098lyss8-06098lyss8.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ywtufbtezv-{0}-nvvlpmu67g-nvvlpmu67g.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\wdhf55obpv-{0}-s35ty4nyc5-s35ty4nyc5.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\41hc1imwnq-{0}-pj5nd1wqec-pj5nd1wqec.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\yihi2wsk86-{0}-46ein0sx1k-46ein0sx1k.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ixfp9tmyr7-{0}-v0zj4ognzu-v0zj4ognzu.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\qgh16fi395-{0}-37tfw0ft22-37tfw0ft22.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\kkv82p4wze-{0}-hrwsygsryq-hrwsygsryq.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\edpwn68maa-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\69v1tj4mel-{0}-ft3s53vfgj-ft3s53vfgj.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\h4x9lnkiap-{0}-6cfz1n2cew-6cfz1n2cew.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\pus8h21tl0-{0}-6pdc2jztkx-6pdc2jztkx.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\2qcxcs4j1a-{0}-493y06b0oq-493y06b0oq.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\aau4vgtww9-{0}-iovd86k7lj-iovd86k7lj.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\muymgfhdhk-{0}-vr1egmr9el-vr1egmr9el.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\gpq421i0xm-{0}-kbrnm935zg-kbrnm935zg.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\lgd3paca6i-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ifbv0n6oov-{0}-y7v9cxd14o-y7v9cxd14o.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\wg3a2b5mld-{0}-notf2xhcfb-notf2xhcfb.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\49pqrf8ht5-{0}-h1s4sie4z3-h1s4sie4z3.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\cdwnzkmq4h-{0}-63fj8s7r0e-63fj8s7r0e.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ocgysal190-{0}-0j3bgjxly4-0j3bgjxly4.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\nvnk9hvrjc-{0}-13ja33weya-13ja33weya.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\3rawy5bchb-{0}-wmp8iwak4q-wmp8iwak4q.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\ftjhev8xci-{0}-2lgipwaf5j-2lgipwaf5j.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\0ojws8apwa-{0}-pbfunqxfly-pbfunqxfly.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\compressed\vr0hvei4g3-{0}-pbfunqxfly-pbfunqxfly.gz
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.build.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.build.json.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.development.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\staticwebassets.build.endpoints.json
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.csproj.Up2Date
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\refint\FlashTech.dll
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.pdb
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\FlashTech.genruntimeconfig.cache
-C:\Users\minhz\Documents\FlashTech C# Project\FlashTech\obj\Debug\net10.0\ref\FlashTech.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/appsettings.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.staticwebassets.runtime.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.staticwebassets.endpoints.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.exe
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.deps.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.runtimeconfig.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/FlashTech.pdb
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/MySqlConnector.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/bin/Debug/net10.0/Pomelo.EntityFrameworkCore.MySql.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/EmbeddedAttribute.cs
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/ValidatableTypeAttribute.cs
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.csproj.AssemblyReference.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.AssemblyInfoInputs.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.AssemblyInfo.cs
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.csproj.CoreCompileInputs.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.sourcelink.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/scopedcss/Components/Layout/ReconnectModal.razor.rz.scp.css
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/scopedcss/bundle/FlashTech.styles.css
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/scopedcss/projectbundle/FlashTech.bundle.scp.css
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/4ksb3x9rgf-{0}-khy4lop6wu-khy4lop6wu.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/pijs2xyt0b-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/cp8y74kq5p-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ycuwjpdarz-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/3cx45yzfw4-{0}-aexeepp0ev-aexeepp0ev.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/sckncgjh1p-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/nijrdbp81b-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/r9n99hi7u1-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/56c5me9kgr-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ntyhm64rbl-{0}-ub07r2b239-ub07r2b239.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/09r1dd0y7x-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/mwiq430j3f-{0}-b7pk76d08c-b7pk76d08c.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/f9ri4qsiax-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/nd3cpqs8pm-{0}-rzd6atqjts-rzd6atqjts.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/5374hzegsy-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/4nxbsrlz3m-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ohjqxodgcd-{0}-jd9uben2k1-jd9uben2k1.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/9bc8l3diy3-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/rkrm4pkvcz-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/kynv09p32b-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ofute9ye11-{0}-c2oey78nd0-c2oey78nd0.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/moy0fblnho-{0}-tdbxkamptv-tdbxkamptv.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/4ia8v79aak-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/v3hs1gcjv7-{0}-06098lyss8-06098lyss8.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ywtufbtezv-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/wdhf55obpv-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/41hc1imwnq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/yihi2wsk86-{0}-46ein0sx1k-46ein0sx1k.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ixfp9tmyr7-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/qgh16fi395-{0}-37tfw0ft22-37tfw0ft22.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/kkv82p4wze-{0}-hrwsygsryq-hrwsygsryq.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/edpwn68maa-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/69v1tj4mel-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/h4x9lnkiap-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/pus8h21tl0-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/2qcxcs4j1a-{0}-493y06b0oq-493y06b0oq.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/aau4vgtww9-{0}-iovd86k7lj-iovd86k7lj.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/muymgfhdhk-{0}-vr1egmr9el-vr1egmr9el.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/gpq421i0xm-{0}-kbrnm935zg-kbrnm935zg.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/lgd3paca6i-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ifbv0n6oov-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/wg3a2b5mld-{0}-notf2xhcfb-notf2xhcfb.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/49pqrf8ht5-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/cdwnzkmq4h-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ocgysal190-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/nvnk9hvrjc-{0}-13ja33weya-13ja33weya.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/3rawy5bchb-{0}-wmp8iwak4q-wmp8iwak4q.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/ftjhev8xci-{0}-2lgipwaf5j-2lgipwaf5j.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/0ojws8apwa-{0}-pbfunqxfly-pbfunqxfly.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/compressed/vr0hvei4g3-{0}-pbfunqxfly-pbfunqxfly.gz
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.csproj.Up2Date
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/refint/FlashTech.dll
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.pdb
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/FlashTech.genruntimeconfig.cache
+C:/Users/minhz/Documents/FlashTech C# Project/FlashTech/obj/Debug/net10.0/ref/FlashTech.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/appsettings.Development.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/appsettings.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech.staticwebassets.runtime.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech.staticwebassets.endpoints.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech.deps.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech.runtimeconfig.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/FlashTech.pdb
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/MySqlConnector.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/bin/Debug/net10.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/EmbeddedAttribute.cs
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/ValidatableTypeAttribute.cs
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.csproj.AssemblyReference.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.GeneratedMSBuildEditorConfig.editorconfig
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.AssemblyInfoInputs.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.AssemblyInfo.cs
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.csproj.CoreCompileInputs.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.MvcApplicationPartsAssemblyInfo.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.sourcelink.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/scopedcss/Components/Layout/ReconnectModal.razor.rz.scp.css
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/scopedcss/bundle/FlashTech.styles.css
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/scopedcss/projectbundle/FlashTech.bundle.scp.css
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/4ksb3x9rgf-{0}-w7mf952350-w7mf952350.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/pijs2xyt0b-{0}-bqjiyaj88i-bqjiyaj88i.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/cp8y74kq5p-{0}-c2jlpeoesf-c2jlpeoesf.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ycuwjpdarz-{0}-erw9l3u2r3-erw9l3u2r3.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/3cx45yzfw4-{0}-aexeepp0ev-aexeepp0ev.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/sckncgjh1p-{0}-d7shbmvgxk-d7shbmvgxk.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/nijrdbp81b-{0}-ausgxo2sd3-ausgxo2sd3.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/r9n99hi7u1-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/56c5me9kgr-{0}-cosvhxvwiu-cosvhxvwiu.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ntyhm64rbl-{0}-ub07r2b239-ub07r2b239.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/09r1dd0y7x-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/mwiq430j3f-{0}-b7pk76d08c-b7pk76d08c.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/f9ri4qsiax-{0}-fsbi9cje9m-fsbi9cje9m.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/nd3cpqs8pm-{0}-rzd6atqjts-rzd6atqjts.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/5374hzegsy-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/4nxbsrlz3m-{0}-dxx9fxp4il-dxx9fxp4il.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ohjqxodgcd-{0}-jd9uben2k1-jd9uben2k1.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/9bc8l3diy3-{0}-khv3u5hwcm-khv3u5hwcm.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/rkrm4pkvcz-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/kynv09p32b-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ofute9ye11-{0}-c2oey78nd0-c2oey78nd0.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/moy0fblnho-{0}-tdbxkamptv-tdbxkamptv.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/4ia8v79aak-{0}-j5mq2jizvt-j5mq2jizvt.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/v3hs1gcjv7-{0}-06098lyss8-06098lyss8.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ywtufbtezv-{0}-nvvlpmu67g-nvvlpmu67g.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/wdhf55obpv-{0}-s35ty4nyc5-s35ty4nyc5.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/41hc1imwnq-{0}-pj5nd1wqec-pj5nd1wqec.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/yihi2wsk86-{0}-46ein0sx1k-46ein0sx1k.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ixfp9tmyr7-{0}-v0zj4ognzu-v0zj4ognzu.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/qgh16fi395-{0}-37tfw0ft22-37tfw0ft22.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/kkv82p4wze-{0}-hrwsygsryq-hrwsygsryq.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/edpwn68maa-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/69v1tj4mel-{0}-ft3s53vfgj-ft3s53vfgj.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/h4x9lnkiap-{0}-6cfz1n2cew-6cfz1n2cew.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/pus8h21tl0-{0}-6pdc2jztkx-6pdc2jztkx.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/2qcxcs4j1a-{0}-493y06b0oq-493y06b0oq.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/aau4vgtww9-{0}-iovd86k7lj-iovd86k7lj.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/muymgfhdhk-{0}-vr1egmr9el-vr1egmr9el.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/gpq421i0xm-{0}-kbrnm935zg-kbrnm935zg.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/lgd3paca6i-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ifbv0n6oov-{0}-y7v9cxd14o-y7v9cxd14o.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/wg3a2b5mld-{0}-notf2xhcfb-notf2xhcfb.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/49pqrf8ht5-{0}-h1s4sie4z3-h1s4sie4z3.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/cdwnzkmq4h-{0}-63fj8s7r0e-63fj8s7r0e.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ocgysal190-{0}-0j3bgjxly4-0j3bgjxly4.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/nvnk9hvrjc-{0}-w97mql0d9w-w97mql0d9w.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/3rawy5bchb-{0}-j8lzlu28q6-j8lzlu28q6.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/ftjhev8xci-{0}-u1n4jc5v46-u1n4jc5v46.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/staticwebassets.build.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/staticwebassets.build.json.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/staticwebassets.development.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/swae.build.ex.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.csproj.Up2Date
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/refint/FlashTech.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.pdb
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/FlashTech.genruntimeconfig.cache
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/ref/FlashTech.dll
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/0ojws8apwa-{0}-rbtywbbzfb-rbtywbbzfb.gz
+/home/flashtm/Documents/FlashTech-C--Project/FlashTech/obj/Debug/net10.0/compressed/vr0hvei4g3-{0}-rbtywbbzfb-rbtywbbzfb.gz

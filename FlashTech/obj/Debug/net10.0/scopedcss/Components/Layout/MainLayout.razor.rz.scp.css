@@ -1,50 +1,51 @@
-.page[b-sx9g9xahyq] {
+.page[b-z729wltw0g] {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
 }
 
-main[b-sx9g9xahyq] {
+main[b-z729wltw0g] {
     flex: 1;
+    background-color: #f8fafc;
+    min-height: 100vh;
 }
 
-.sidebar[b-sx9g9xahyq] {
-    background-color: #1e293b; /* slate-800 */
+.sidebar[b-z729wltw0g] {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #1e293b;
+    flex-shrink: 0;
 }
 
-.content[b-sx9g9xahyq] {
+.content[b-z729wltw0g] {
     padding: 1.5rem;
 }
 
-@media (min-width: 641px) {
-    .page[b-sx9g9xahyq] {
-        flex-direction: row;
-    }
-
-    .sidebar[b-sx9g9xahyq] {
-        width: 280px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-        flex-shrink: 0;
-    }
-
-    main[b-sx9g9xahyq] {
-        flex: 1;
-        display: flex;
+@media (max-width: 640px) {
+    .page[b-z729wltw0g] {
         flex-direction: column;
-        min-height: 100vh;
     }
 
-    .content[b-sx9g9xahyq] {
-        flex: 1;
-        padding: 2rem;
+    .sidebar[b-z729wltw0g] {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content[b-z729wltw0g] {
+        padding: 1rem;
     }
 }
 
 /* Error UI */
-#blazor-error-ui[b-sx9g9xahyq] {
+#blazor-error-ui[b-z729wltw0g] {
     color-scheme: light only;
     background: linear-gradient(135deg, #fef2f2, #fee2e2);
     border-top: 3px solid #ef4444;
@@ -59,7 +60,7 @@ main[b-sx9g9xahyq] {
     z-index: 1000;
 }
 
-#blazor-error-ui .dismiss[b-sx9g9xahyq] {
+#blazor-error-ui .dismiss[b-z729wltw0g] {
     cursor: pointer;
     position: absolute;
     right: 1rem;
@@ -70,11 +71,11 @@ main[b-sx9g9xahyq] {
     transition: background-color 0.2s;
 }
 
-#blazor-error-ui .dismiss:hover[b-sx9g9xahyq] {
+#blazor-error-ui .dismiss:hover[b-z729wltw0g] {
     background-color: rgba(239, 68, 68, 0.1);
 }
 
-#blazor-error-ui .reload[b-sx9g9xahyq] {
+#blazor-error-ui .reload[b-z729wltw0g] {
     display: inline-block;
     margin-left: 1rem;
     padding: 0.5rem 1rem;
@@ -86,6 +87,6 @@ main[b-sx9g9xahyq] {
     transition: background-color 0.2s;
 }
 
-#blazor-error-ui .reload:hover[b-sx9g9xahyq] {
+#blazor-error-ui .reload:hover[b-z729wltw0g] {
     background-color: #dc2626;
 }

@@ -24,14 +24,14 @@ namespace FlashTech.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Brands>(entity =>{
-               entity.ToTable("Brands");
+               entity.ToTable("brands");
                entity.HasKey(b => b.Id);
                entity.Property(b => b.Id).HasColumnName("Id");
                entity.Property(b => b.name).HasColumnName("name");   
             });
 
             modelBuilder.Entity<Products>(entity =>{
-               entity.ToTable("Products");
+               entity.ToTable("products");
                entity.HasKey(p => p.id);
                entity.Property(p => p.id).HasColumnName("id");
                entity.Property(p => p.name).HasColumnName("name");

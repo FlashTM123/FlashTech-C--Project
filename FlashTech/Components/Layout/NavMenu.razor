@@ -1,86 +1,81 @@
 ﻿<!-- Header -->
-<div class="bg-gradient-to-r from-indigo-600 to-purple-600 px-4 py-4 shadow-lg">
-    <div class="flex items-center justify-between">
-        <a href="" class="flex items-center gap-2 text-white no-underline">
-            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
-            </svg>
-            <span class="text-xl font-bold tracking-wide">FlashTech</span>
-        </a>
-    </div>
+<div class="nav-header">
+    <a href="" class="nav-brand">
+        <svg class="nav-icon-lg" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+        </svg>
+        <span>FlashTech</span>
+    </a>
 </div>
 
 <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
 <!-- Navigation -->
-<div class="nav-scrollable bg-slate-800" onclick="document.querySelector('.navbar-toggler').click()">
-    <nav class="flex flex-col p-3 gap-1">
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="nav-menu">
         <!-- Home -->
         <div class="nav-item">
-            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="" Match="NavLinkMatch.All">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/>
                 </svg>
-                <span class="font-medium">Trang chủ</span>
+                <span>Trang chủ</span>
             </NavLink>
         </div>
 
-       <!--- Users -->
+        <!-- Users -->
         <div class="nav-item">
-            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="users">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M13 7H7v6h6V7z"/>
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-11a1 1 0 112 0v2a1 1 0 11-2 0V7zm0 4a1 1 0 112 0v2a1 1 0 11-2 0v-2z" clip-rule="evenodd"/>
+            <NavLink class="nav-link" href="users">
+                <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
                 </svg>
-                <span class="font-medium">Quản lý Người dùng</span>
+                <span>Quản lý Người dùng</span>
             </NavLink>
         </div>
-        <!--- Customers -->
+
+        <!-- Customers -->
         <div class="nav-item">
-            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="customers">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M13 7H7v6h6V7z"/>
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-11a1 1 0 112 0v2a1 1 0 11-2 0V7zm0 4a1 1 0 112 0v2a1 1 0 11-2 0v-2z" clip-rule="evenodd"/>
+            <NavLink class="nav-link" href="customers">
+                <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"/>
                 </svg>
-                <span class="font-medium">Quản lý Khách hàng</span>
+                <span>Quản lý Khách hàng</span>
             </NavLink>
         </div>
-        <!--- Brands -->
+
+        <!-- Brands -->
         <div class="nav-item">
-            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="brands">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M13 7H7v6h6V7z"/>
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-11a1 1 0 112 0v2a1 1 0 11-2 0V7zm0 4a1 1 0 112 0v2a1 1 0 11-2 0v-2z" clip-rule="evenodd"/>
+            <NavLink class="nav-link" href="brands">
+                <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/>
                 </svg>
-                <span class="font-medium">Quản lý Thương hiệu</span>    
+                <span>Quản lý Thương hiệu</span>
             </NavLink>
         </div>
-        <!--- Products -->
+
+        <!-- Products -->
         <div class="nav-item">
-            <NavLink class="nav-link flex items-center gap-3 px-4 py-3 rounded-lg text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200" href="products">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M13 7H7v6h6V7z"/>
-                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-11a1 1 0 112 0v2a1 1 0 11-2 0V7zm0 4a1 1 0 112 0v2a1 1 0 11-2 0v-2z" clip-rule="evenodd"/>
+            <NavLink class="nav-link" href="products">
+                <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd"/>
                 </svg>
-                <span class="font-medium">Quản lý Sản phẩm</span>
+                <span>Quản lý Sản phẩm</span>
             </NavLink>
         </div>
 
         <!-- Divider -->
-        <div class="my-3 border-t border-slate-700"></div>
+        <div class="nav-divider"></div>
 
         <!-- User Section -->
-        <div class="px-4 py-3 bg-slate-700/50 rounded-lg">
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-500 rounded-full flex items-center justify-center">
-                    <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
-                    </svg>
-                </div>
-                <div>
-                    <p class="text-sm font-medium text-white m-0">Guest User</p>
-                    <p class="text-xs text-slate-400 m-0">Đăng nhập</p>
-                </div>
+        <div class="user-section">
+            <div class="user-avatar">
+                <svg class="nav-icon" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/>
+                </svg>
+            </div>
+            <div class="user-info">
+                <p class="user-name">Guest User</p>
+                <p class="user-status">Đăng nhập</p>
             </div>
         </div>
     </nav>

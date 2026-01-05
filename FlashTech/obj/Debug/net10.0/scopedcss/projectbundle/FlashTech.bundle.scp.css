@@ -1,51 +1,52 @@
 /* /Components/Layout/MainLayout.razor.rz.scp.css */
-.page[b-sx9g9xahyq] {
+.page[b-z729wltw0g] {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
 }
 
-main[b-sx9g9xahyq] {
+main[b-z729wltw0g] {
     flex: 1;
+    background-color: #f8fafc;
+    min-height: 100vh;
 }
 
-.sidebar[b-sx9g9xahyq] {
-    background-color: #1e293b; /* slate-800 */
+.sidebar[b-z729wltw0g] {
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    background-color: #1e293b;
+    flex-shrink: 0;
 }
 
-.content[b-sx9g9xahyq] {
+.content[b-z729wltw0g] {
     padding: 1.5rem;
 }
 
-@media (min-width: 641px) {
-    .page[b-sx9g9xahyq] {
-        flex-direction: row;
-    }
-
-    .sidebar[b-sx9g9xahyq] {
-        width: 280px;
-        height: 100vh;
-        position: sticky;
-        top: 0;
-        flex-shrink: 0;
-    }
-
-    main[b-sx9g9xahyq] {
-        flex: 1;
-        display: flex;
+@media (max-width: 640px) {
+    .page[b-z729wltw0g] {
         flex-direction: column;
-        min-height: 100vh;
     }
 
-    .content[b-sx9g9xahyq] {
-        flex: 1;
-        padding: 2rem;
+    .sidebar[b-z729wltw0g] {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content[b-z729wltw0g] {
+        padding: 1rem;
     }
 }
 
 /* Error UI */
-#blazor-error-ui[b-sx9g9xahyq] {
+#blazor-error-ui[b-z729wltw0g] {
     color-scheme: light only;
     background: linear-gradient(135deg, #fef2f2, #fee2e2);
     border-top: 3px solid #ef4444;
@@ -60,7 +61,7 @@ main[b-sx9g9xahyq] {
     z-index: 1000;
 }
 
-#blazor-error-ui .dismiss[b-sx9g9xahyq] {
+#blazor-error-ui .dismiss[b-z729wltw0g] {
     cursor: pointer;
     position: absolute;
     right: 1rem;
@@ -71,11 +72,11 @@ main[b-sx9g9xahyq] {
     transition: background-color 0.2s;
 }
 
-#blazor-error-ui .dismiss:hover[b-sx9g9xahyq] {
+#blazor-error-ui .dismiss:hover[b-z729wltw0g] {
     background-color: rgba(239, 68, 68, 0.1);
 }
 
-#blazor-error-ui .reload[b-sx9g9xahyq] {
+#blazor-error-ui .reload[b-z729wltw0g] {
     display: inline-block;
     margin-left: 1rem;
     padding: 0.5rem 1rem;
@@ -87,11 +88,47 @@ main[b-sx9g9xahyq] {
     transition: background-color 0.2s;
 }
 
-#blazor-error-ui .reload:hover[b-sx9g9xahyq] {
+#blazor-error-ui .reload:hover[b-z729wltw0g] {
     background-color: #dc2626;
 }
 /* /Components/Layout/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-q2kffntg66] {
+/* Header */
+.nav-header[b-w0gch1zt8d] {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-brand[b-w0gch1zt8d] {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.nav-brand:hover[b-w0gch1zt8d] {
+    color: white;
+    text-decoration: none;
+}
+
+/* Icons */
+.nav-icon-lg[b-w0gch1zt8d] {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav-icon[b-w0gch1zt8d] {
+    width: 1.25rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+}
+
+/* Toggle Button */
+.navbar-toggler[b-w0gch1zt8d] {
     appearance: none;
     cursor: pointer;
     width: 3.5rem;
@@ -106,38 +143,108 @@ main[b-sx9g9xahyq] {
     transition: all 0.2s ease;
 }
 
-.navbar-toggler:hover[b-q2kffntg66] {
+.navbar-toggler:hover[b-w0gch1zt8d] {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-.navbar-toggler:checked[b-q2kffntg66] {
+.navbar-toggler:checked[b-w0gch1zt8d] {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.nav-item[b-q2kffntg66]  .nav-link {
-    text-decoration: none;
-}
-
-.nav-item[b-q2kffntg66]  a.active {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.8), rgba(139, 92, 246, 0.8)) !important;
-    color: white !important;
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
-}
-
-.nav-scrollable[b-q2kffntg66] {
+/* Navigation Scrollable */
+.nav-scrollable[b-w0gch1zt8d] {
     display: none;
+    background-color: #1e293b;
 }
 
-.navbar-toggler:checked ~ .nav-scrollable[b-q2kffntg66] {
+.navbar-toggler:checked ~ .nav-scrollable[b-w0gch1zt8d] {
     display: block;
 }
 
+/* Nav Menu */
+.nav-menu[b-w0gch1zt8d] {
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    gap: 0.25rem;
+}
+
+/* Nav Items */
+.nav-item[b-w0gch1zt8d]  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    color: #cbd5e1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-item[b-w0gch1zt8d]  .nav-link:hover {
+    background-color: #334155;
+    color: white;
+}
+
+.nav-item[b-w0gch1zt8d]  a.active {
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.8), rgba(139, 92, 246, 0.8));
+    color: white;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
+/* Divider */
+.nav-divider[b-w0gch1zt8d] {
+    margin: 0.75rem 0;
+    border-top: 1px solid #334155;
+}
+
+/* User Section */
+.user-section[b-w0gch1zt8d] {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background-color: rgba(51, 65, 85, 0.5);
+    border-radius: 0.5rem;
+}
+
+.user-avatar[b-w0gch1zt8d] {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.user-info[b-w0gch1zt8d] {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name[b-w0gch1zt8d] {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+}
+
+.user-status[b-w0gch1zt8d] {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin: 0;
+}
+
+/* Responsive */
 @media (min-width: 641px) {
-    .navbar-toggler[b-q2kffntg66] {
+    .navbar-toggler[b-w0gch1zt8d] {
         display: none;
     }
 
-    .nav-scrollable[b-q2kffntg66] {
+    .nav-scrollable[b-w0gch1zt8d] {
         display: block;
         height: calc(100vh - 4rem);
         overflow-y: auto;
